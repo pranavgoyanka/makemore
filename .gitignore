@@ -1,1 +1,28 @@
-.vscode
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code settings folder
+.vscode/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment folders
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Ignore log files and system files
+*.log
+*.DS_Store
+*.swp
+
+# Ignore specific Python files
+*.pyc
+*.pyo
+
+# Ignore names.txt if it contains sensitive or unnecessary data
+names.txt
